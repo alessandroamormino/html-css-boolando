@@ -91,6 +91,8 @@ main .card-container{
 }
 
 main .card-container .card {
+    position: relative;
+
     width: calc((100% / 3) - 0.6em);
 }
 
@@ -98,6 +100,19 @@ main .card-container .card img {
     display: block;
     width: 100%;
 }   
+
+main .card .favourite{
+    position: absolute;
+    top: 5px;
+    right: 0;
+
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+
+    text-align: center;
+    font-size: 1.2em;
+}
 
 
 /* /Main */
