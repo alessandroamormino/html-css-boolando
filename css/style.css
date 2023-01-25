@@ -135,9 +135,11 @@ main .card .favourite{
     font-size: 1.2em;
 }
 
+/* Bonus */
 main .card .favourite:hover {
     color: red;
 }
+/* /Bonus */
 
 main .card .card-tag {
     position: absolute;
