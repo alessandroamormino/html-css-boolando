@@ -20,6 +20,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 /* nav */
@@ -113,6 +114,29 @@ main .card .favourite{
     text-align: center;
     font-size: 1.2em;
 }
+
+main .card .card-tag {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+
+    display: flex;
+
+    font-size: 0.7em;
+    color: #ffffff;
+}
+
+main .card .card-tag .discount{
+    background-color: #FB1900;
+    padding: 4px 7px;
+    margin-right: 3px;
+}
+
+main .card .card-tag .eco-material{
+    background-color: #158000;
+    padding: 5px 8px;
+}
+
 
 
 /* /Main */
