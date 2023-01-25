@@ -92,15 +92,35 @@ main .card-container{
 }
 
 main .card-container .card {
-    position: relative;
+
+    display: flex;
+    flex-flow: column nowrap;
 
     width: calc((100% / 3) - 0.6em);
 }
+
+main .card-container .card .card-image{
+    position: relative;
+}
+
 
 main .card-container .card img {
     display: block;
     width: 100%;
 }   
+
+main .card .card-image .img-secondary{
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .card-image:hover .img-secondary{
+    display: inline-block;
+}
+
 
 main .card .favourite{
     position: absolute;
@@ -126,6 +146,10 @@ main .card .card-tag {
     color: #ffffff;
 }
 
+main .card .card-info{
+    margin-bottom: 2em;
+}
+
 main .card .card-tag .discount{
     background-color: #FB1900;
     padding: 4px 7px;
@@ -135,6 +159,22 @@ main .card .card-tag .discount{
 main .card .card-tag .eco-material{
     background-color: #158000;
     padding: 5px 8px;
+}
+
+main .card .card-info .brand-name{
+    font-size: .8em;
+}
+
+main .card .card-info .product-name{
+    text-transform: uppercase;
+}
+
+.card-info .product-price .discount-price{
+    color: red;
+}
+
+.card-info .product-price .original-price{
+    text-decoration: line-through;
 }
 
 
