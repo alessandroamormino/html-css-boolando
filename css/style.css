@@ -79,6 +79,9 @@ nav .nav-inner .cart svg {
 /* /header */
 
 
+
+
+
 /* Main */
 
 main{
@@ -187,6 +190,53 @@ main .card-info .product-price .original-price{
     text-decoration: line-through;
 }
 
-
-
 /* /Main */
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: #1A1A1A;
+    color: #ffffff;
+    font-size: .8em;
+    padding: 2em 0;
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .info-legali ul{
+    display: flex;
+    gap: 1em;
+
+    list-style-type: none;
+    margin-top: .5em;
+}
+
+footer .footer-container .info-legali ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-container .info-legali ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .footer-container .social .social-img{
+    display: flex;
+    gap: .5em;
+    
+    margin-top: .5em;
+}
+
+footer .footer-container .social .social-img svg{
+    width: 1.2em;
+    fill: #ffffff;
+}
+
+
+/* /Footer */
