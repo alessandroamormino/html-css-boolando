@@ -17,17 +17,23 @@ body{
 
 /* header */
 
+header{
+    position: fixed;
+    width: 100%;
+}
+
 /* nav */
 
 nav{
     background-color: #FC6901;
-    padding: 1em 0;
+    height: 50px;
 }
 
 nav .nav-inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 nav .nav-inner .body-type ul{
@@ -68,9 +74,31 @@ nav .nav-inner .cart svg {
     fill: #ffffff;
     padding: 0 .2em;
 }
-
-
-
 /* /nav */
-
 /* /header */
+
+
+
+/* Main */
+
+main{
+    padding-top: 100px;
+}
+
+main .card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+main .card-container .card {
+    width: calc((100% / 3) - 0.6em);
+}
+
+main .card-container .card img {
+    display: block;
+    width: 100%;
+}   
+
+
+/* /Main */
