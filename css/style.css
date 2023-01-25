@@ -135,6 +135,10 @@ main .card .favourite{
     font-size: 1.2em;
 }
 
+main .card .favourite:hover {
+    color: red;
+}
+
 main .card .card-tag {
     position: absolute;
     bottom: 30px;
